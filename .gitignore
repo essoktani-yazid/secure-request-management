@@ -1,0 +1,30 @@
+# Target directories
+target/
+**/target/
+
+# Node & Frontend
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+.vite/
+**/.vite/
+
+# Keycloak & Docker
+keycloak_data/
+*.log
+
+# IDE & OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+*.swp
+
+# Environment
+.env.local
+.env.*.local
+
+
+# PDF & Documents
+*.pdf
